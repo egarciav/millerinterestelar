@@ -1,0 +1,51 @@
+body { 
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+} 
+
+#earth {
+    position: relative;
+} 
+
+#record {
+    margin-bottom: 10px;
+} 
+
+#miller { 
+    position: relative;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.centerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}   
+
+.miller {
+    left: 0;
+    background-color: #A4243B;
+    color: white;
+} 
+
+.earth {
+    right: 0;
+    background-color: #26547C;
+    color: white;
+} 
+
+.footer {
+    bottom: 0;
+    font-size: 14px;
+    position: fixed;
+}
